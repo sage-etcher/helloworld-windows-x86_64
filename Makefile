@@ -18,7 +18,7 @@ A_FLAGS := -f win64
 
 # linker variables
 LINKER := gcc
-L_FLAGS :=
+L_FLAGS := -Wl,-subsystem,console
 
 
 # make the object files and executable
